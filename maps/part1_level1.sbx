@@ -1,0 +1,140 @@
+SBX_ASCII_1.0
+
+cameraposition=-84.1859283,56.4265213,-88.5803070
+camerarotation=26.4000092,-38.6002922,4.40284992e-007
+
+Model {
+	path="light_directional.gmf"
+	position=0.000000000,1.00000000,0.000000000
+	rotation=45.0000000,125.000008,9.32600233e-006
+	scale=0.999999285,0.999999881,0.999999285
+	id=48825752
+	"aligntoground"="0"
+	"class"="Model"
+	"collisiontype"="0"
+	"damping"="0.000000000,0.000000000"
+	"friction"="0.000000000,0.000000000"
+	"gravity"="0"
+	"intensity"="1.0000000000000000"
+	"linearoffset"="0.310000002,0.400000006,0.699999988"
+	"mass"="0.00000000000000000"
+	"name"="light_directional_1"
+	"order"="0"
+	"range"="500.00000000000000"
+	"reloadafterscript"="1"
+	"resolution"="1"
+	"shadowdistance"="10.0000000,50.0000000,150.000000"
+}
+
+Model {
+	path="environment_atmosphere.gmf"
+	position=-128.000000,29.0000000,-68.0000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=48887752
+	"backgroundcolor"="127,127,127,255"
+	"brightness"="1.0"
+	"camerarange"="0.100000001,1000.00000"
+	"class"="Model"
+	"contrast"="1.0"
+	"fogangle"="0.000000000,15.0000000"
+	"fogrange"="0.000000000,1000.00000"
+	"gravityforce"="0.000000000,-20.0000000,0.000000000"
+	"intensity"="1"
+	"name"="atmosphere_1"
+	"range"="10"
+	"reloadafterscript"="1"
+	"saturation"="1.0"
+	"skymaterial"="sky35.mat"
+	"volume"="1"
+}
+
+Model {
+	path="environment_waterplane.gmf"
+	position=10.0000000,12.0000000,-82.0000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=48890264
+	"amplitude"="2"
+	"class"="Model"
+	"intensity"="1"
+	"name"="waterplane_1"
+	"reloadafterscript"="1"
+	"softness"="2"
+	"submersioncolor"="128,128,128,255"
+	"visibility"="0,50"
+	"wavespeed"="4"
+}
+
+Model {
+	path="1299_buildings_han1.gmf"
+	position=-86.3099976,27.4200001,-3.47000003
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=6.04999971,6.04999971,6.04999971
+	id=380772616
+	"aligntoground"="0"
+	"class"="Model"
+	"hidden"="0"
+	"intensity"="0.50000000000000000"
+	"name"="han1_1"
+	"occlusionculling"="0"
+	"order"="0"
+	"viewdistance"="0.000000000,0.000000000"
+}
+
+Model {
+	path="1299_buildings_han1.gmf"
+	position=-75.0000000,27.0000000,106.400002
+	rotation=-0.000000000,180.000000,-0.000000000
+	scale=6.00000000,6.00000000,6.00000000
+	id=380773128
+	"aligntoground"="0"
+	"class"="Model"
+	"hidden"="0"
+	"intensity"="0.50000000000000000"
+	"name"="han1_3"
+	"occlusionculling"="0"
+	"order"="0"
+	"viewdistance"="0.000000000,0.000000000"
+}
+
+Model {
+	path="1299_buildings_kopru1.gmf"
+	position=-13.0000000,16.8499985,87.6500168
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.85000038,2.00000024,2.05000019
+	id=381575128
+	"aligntoground"="0"
+	"class"="Model"
+	"hidden"="0"
+	"intensity"="0.50000000000000000"
+	"name"="kopru1_1"
+	"occlusionculling"="0"
+	"order"="0"
+	"viewdistance"="0.000000000,0.000000000"
+}
+
+Terrain {
+	altitude=100.000000
+	resolution=128
+	meterspertile=2.00000000
+	hiddentiles=0
+
+	texture0="terrain_mountain_grass.dds"
+	bumpmap0="terrain_mountain_grassdot3.dds"
+	texturefit0=0
+	texturescale0=15.0000000
+	texturerotation0=0.000000000
+	triplanarmapping0=0
+	layercolor0=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints0=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture1="terrain_savannah_dirt.dds"
+	bumpmap1="terrain_savannah_dirtdot3.dds"
+	texturefit1=0
+	texturescale1=15.0000000
+	texturerotation1=0.000000000
+	triplanarmapping1=0
+	layercolor1=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints1=0.000000000,8388610.00,0.000000000,90.0000000
+}

@@ -1,0 +1,84 @@
+SBX_ASCII_1.0
+
+cameraposition=153.357407,69.3176270,-182.046936
+camerarotation=24.7999039,42.3998909,-1.95503631e-007
+
+Model {
+	path="light_directional.gmf"
+	position=0.000000000,1.00000000,0.000000000
+	rotation=44.9999924,34.9999924,2.34194636e-006
+	scale=1.00000000,1.00000000,0.999999881
+	id=177976456
+	"aligntoground"="0"
+	"class"="Model"
+	"collisiontype"="0"
+	"damping"="0.000000000,0.000000000"
+	"friction"="0.000000000,0.000000000"
+	"gravity"="0"
+	"intensity"="1.0000000000000000"
+	"linearoffset"="0.310000002,0.400000006,0.699999988"
+	"mass"="0.00000000000000000"
+	"name"="light_directional_1"
+	"order"="0"
+	"range"="500.00000000000000"
+	"resolution"="2"
+	"shadowdistance"="6.00000000,20.0000000,100.000000"
+}
+
+Model {
+	path="environment_atmosphere.gmf"
+	position=212.000000,12.0000000,-144.000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=177144920
+	"brightness"="1.0"
+	"camerarange"="0.1,1000.0"
+	"class"="Model"
+	"contrast"="1.0"
+	"intensity"="1.0"
+	"name"="atmosphere_1"
+	"range"="10"
+	"saturation"="1.0"
+	"skymaterial"="FullskiesBlueClear0016_2_L.mat"
+	"volume"="1"
+}
+
+Model {
+	path="environment_waterplane.gmf"
+	position=218.000000,20.0000000,-139.000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=394095608
+	"amplitude"="1.0000000000000000"
+	"class"="Model"
+	"intensity"="1.0"
+	"name"="waterplane_1"
+	"softness"="3.0000000000000000"
+	"submersioncolor"="128,128,128,255"
+	"visibility"="0.000000000,20.0000000"
+	"wavespeed"="1.0000000000000000"
+}
+
+Terrain {
+	altitude=100.000000
+	resolution=256
+	meterspertile=2.00000000
+	hiddentiles=0
+
+	texture0="terrain_mountain_grass.dds"
+	bumpmap0="terrain_mountain_grassdot3.dds"
+	texturefit0=0
+	texturescale0=10.0000000
+	texturerotation0=0.000000000
+	triplanarmapping0=0
+	layercolor0=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints0=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture1="terrain_1299 custom_fall.dds"
+	texturefit1=0
+	texturescale1=10.0000000
+	texturerotation1=0.000000000
+	triplanarmapping1=0
+	layercolor1=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints1=0.000000000,8388610.00,0.000000000,90.0000000
+}

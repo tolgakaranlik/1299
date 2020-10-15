@@ -1,0 +1,115 @@
+SBX_ASCII_1.0
+
+cameraposition=-223.412567,68.0966415,-246.934250
+camerarotation=48.1998558,-51.1997643,-1.63560003e-006
+
+Model {
+	path="light_directional.gmf"
+	position=0.000000000,1.00000000,0.000000000
+	rotation=45.0000000,34.9999924,3.12794646e-006
+	scale=1.00000000,1.00000000,0.999999940
+	id=327785736
+	"aligntoground"="0"
+	"class"="Model"
+	"collisiontype"="0"
+	"damping"="0.000000000,0.000000000"
+	"friction"="0.000000000,0.000000000"
+	"gravity"="0"
+	"hidden"="0"
+	"intensity"="0.50000000000000000"
+	"linearoffset"="0.310000002,0.400000006,0.699999988"
+	"mass"="0.00000000000000000"
+	"name"="light_directional_1"
+	"occlusionculling"="0"
+	"order"="0"
+	"range"="500.00000000000000"
+	"resolution"="1"
+	"shadowdistance"="6.00000000,20.0000000,100.000000"
+	"viewdistance"="0.000000000,0.000000000"
+}
+
+Model {
+	path="environment_atmosphere.gmf"
+	position=-273.000000,0.000000000,-136.000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=349753992
+	"backgroundcolor"="127,127,127,255"
+	"brightness"="1.0000000000000000"
+	"camerarange"="0.100000001,1000.00000"
+	"class"="Model"
+	"contrast"="1.5000000000000000"
+	"fogangle"="0.000000000,15.0000000"
+	"fogrange"="0.000000000,1000.00000"
+	"gravityforce"="0.000000000,-20.0000000,0.000000000"
+	"intensity"="1.0"
+	"name"="atmosphere_1"
+	"range"="10"
+	"saturation"="1.0000000000000000"
+	"skymaterial"="FullskiesBlueClear0016_2_L.mat"
+	"volume"="1"
+}
+
+Model {
+	path="environment_waterplane.gmf"
+	position=-37.0000000,15.0000000,-24.0000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=336735864
+	"aligntoground"="0"
+	"amplitude"="1.0000000000000000"
+	"class"="Model"
+	"hidden"="0"
+	"intensity"="1.0000000000000000"
+	"name"="waterplane_1"
+	"occlusionculling"="1"
+	"order"="0"
+	"softness"="5.0000000000000000"
+	"submersioncolor"="128,128,128,255"
+	"viewdistance"="0.000000000,0.000000000"
+	"visibility"="0.000000000,50.0000000"
+	"wavespeed"="3.0000000000000000"
+}
+
+Terrain {
+	altitude=100.000000
+	resolution=256
+	meterspertile=2.00000000
+	hiddentiles=0
+
+	texture0="terrain_mountain_snow.dds"
+	bumpmap0="terrain_mountain_snowdot3.dds"
+	texturefit0=0
+	texturescale0=20.0000000
+	texturerotation0=0.000000000
+	triplanarmapping0=0
+	layercolor0=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints0=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture1="terrain_mountain_grasssnow.dds"
+	bumpmap1="terrain_mountain_grasssnowdot3.dds"
+	texturefit1=0
+	texturescale1=20.0000000
+	texturerotation1=0.000000000
+	triplanarmapping1=0
+	layercolor1=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints1=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture2="terrain_mountain_ice.dds"
+	bumpmap2="terrain_mountain_icedot3.dds"
+	texturefit2=0
+	texturescale2=20.0000000
+	texturerotation2=0.000000000
+	triplanarmapping2=0
+	layercolor2=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints2=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture3="terrain_desert_rockwall.dds"
+	bumpmap3="terrain_desert_rockwalldot3.dds"
+	texturefit3=0
+	texturescale3=20.0000000
+	texturerotation3=0.000000000
+	triplanarmapping3=0
+	layercolor3=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints3=0.000000000,8388610.00,0.000000000,90.0000000
+}

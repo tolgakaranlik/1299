@@ -1,0 +1,119 @@
+SBX_ASCII_1.0
+
+cameraposition=4.31651926,1.88929534,-3.54193950
+camerarotation=-10.0000057,30.0000687,1.15123534e-007
+
+Model {
+	path="light_directional.gmf"
+	position=-1.39797214e-006,3.99999881,10.0000000
+	rotation=27.7902374,-144.233063,-32.0800323
+	scale=0.999999583,0.999999881,0.999999285
+	id=72409240
+	"aligntoground"="0"
+	"class"="Model"
+	"collisiontype"="0"
+	"damping"="0.000000000,0.000000000"
+	"friction"="0.000000000,0.000000000"
+	"gravity"="0"
+	"hidden"="0"
+	"intensity"="4.0000000000000000"
+	"linearoffset"="0.310000002,0.400000006,0.699999988"
+	"mass"="0.00000000000000000"
+	"name"="light_directional_1"
+	"occlusionculling"="0"
+	"order"="0"
+	"range"="500.00000000000000"
+	"resolution"="3"
+	"shadowdistance"="6.00000000,20.0000000,100.000000"
+	"viewdistance"="0.000000000,0.000000000"
+}
+
+Model {
+	path="1299_scenery_crownroom.gmf"
+	position=0.000000000,0.000000000,0.000000000
+	rotation=-0.000000000,0.000000000,0.000000000
+	scale=20.00000000,20.00000000,20.00000000
+	id=71334888
+	"aligntoground"="0"
+	"class"="Model"
+	"hidden"="0"
+	"intensity"="1.0000000000000000"
+	"name"="crownroom_2"
+	"occlusionculling"="1"
+	"order"="0"
+	"viewdistance"="0.000000000,0.000000000"
+}
+
+Model {
+	path="environment_atmosphere.gmf"
+	position=2.00000000,4.00000000,8.00000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=445806680
+	"backgroundcolor"="127,127,127,255"
+	"brightness"="1.2000000000000000"
+	"camerarange"="0.100000001,1000.00000"
+	"class"="Model"
+	"contrast"="1.1000000000000001"
+	"fogangle"="0.000000000,15.0000000"
+	"fogrange"="0.000000000,1000.00000"
+	"gravityforce"="0.000000000,-20.0000000,0.000000000"
+	"intensity"="1.0"
+	"name"="atmosphere_1"
+	"range"="10"
+	"saturation"="1.0000000000000000"
+	"skymaterial"="FullskiesBlueClear0016_2_L.mat"
+	"volume"="1"
+}
+
+Model {
+	path="vegetation_tree_oak_a.gmf"
+	position=1.00000000,-7.00000000,17.0000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=589902648
+	"class"="Model"
+	"intensity"="1.0"
+	"loddistance"="20 100"
+	"name"="a_1"
+}
+
+Model {
+	path="vegetation_tree_oak_a.gmf"
+	position=-4.00000000,-7.00000000,17.0000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=589903160
+	"class"="Model"
+	"intensity"="1.0"
+	"loddistance"="20 100"
+	"name"="a_1"
+}
+
+Model {
+	path="vegetation_tree_oak_a.gmf"
+	position=10.0000000,-5.00000000,6.00000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=589903656
+	"class"="Model"
+	"intensity"="1.0"
+	"loddistance"="20 100"
+	"name"="a_1"
+}
+
+Model {
+	path="light_ambient.gmf"
+	position=3.00000000,2.00000000,7.00000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=590272536
+	"aligntoground"="0"
+	"class"="Model"
+	"hidden"="0"
+	"intensity"="0.50000000000000000"
+	"name"="ambient_1"
+	"occlusionculling"="0"
+	"order"="0"
+	"viewdistance"="0.000000000,0.000000000"
+}

@@ -1,0 +1,101 @@
+SBX_ASCII_1.0
+
+cameraposition=-121.076172,76.8891678,-108.812889
+camerarotation=31.2000313,-44.9992867,2.83494870e-007
+
+Model {
+	path="light_directional.gmf"
+	position=0.000000000,1.00000000,0.000000000
+	rotation=44.9999924,34.9999924,2.14186755e-007
+	scale=1.00000000,1.00000000,0.999999940
+	id=75472904
+	"aligntoground"="0"
+	"class"="Model"
+	"collisiontype"="0"
+	"damping"="0.000000000,0.000000000"
+	"friction"="0.000000000,0.000000000"
+	"gravity"="0"
+	"intensity"="1.0000000000000000"
+	"linearoffset"="0.310000002,0.400000006,0.699999988"
+	"mass"="0.00000000000000000"
+	"name"="light_directional_1"
+	"order"="0"
+	"range"="500.00000000000000"
+	"reloadafterscript"="1"
+	"resolution"="2"
+	"shadowdistance"="6.00000000,20.0000000,100.000000"
+}
+
+Model {
+	path="environment_atmosphere.gmf"
+	position=-93.0000000,0.000000000,-99.0000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=176777144
+	"backgroundcolor"="127,127,127,255"
+	"brightness"="1.0"
+	"camerarange"="0.100000001,1000.00000"
+	"class"="Model"
+	"contrast"="1.0"
+	"fogangle"="0.000000000,15.0000000"
+	"fogrange"="0.000000000,1000.00000"
+	"gravityforce"="0.000000000,-20.0000000,0.000000000"
+	"intensity"="1"
+	"name"="atmosphere_1"
+	"range"="10"
+	"reloadafterscript"="1"
+	"saturation"="1.0"
+	"skymaterial"="sky14.mat"
+	"volume"="1"
+}
+
+Model {
+	path="environment_waterplane.gmf"
+	position=-106.000000,24.0000000,-156.000000
+	rotation=-0.000000000,-0.000000000,0.000000000
+	scale=1.00000000,1.00000000,1.00000000
+	id=385041192
+	"amplitude"="1.0"
+	"class"="Model"
+	"intensity"="1"
+	"name"="waterplane_1"
+	"reloadafterscript"="1"
+	"softness"="3"
+	"submersioncolor"="128,128,128,255"
+	"visibility"="0,5"
+	"wavespeed"="1.0"
+}
+
+Terrain {
+	altitude=100.000000
+	resolution=128
+	meterspertile=2.00000000
+	hiddentiles=0
+
+	texture0="terrain_savannah_dirt.dds"
+	bumpmap0="terrain_savannah_dirtdot3.dds"
+	texturefit0=0
+	texturescale0=8.00000000
+	texturerotation0=0.000000000
+	triplanarmapping0=0
+	layercolor0=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints0=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture1="terrain_forest_grass.dds"
+	bumpmap1="terrain_forest_grassdot3.dds"
+	texturefit1=0
+	texturescale1=8.00000000
+	texturerotation1=0.000000000
+	triplanarmapping1=0
+	layercolor1=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints1=0.000000000,8388610.00,0.000000000,90.0000000
+
+	texture3="terrain_mountain_rockwall.dds"
+	bumpmap3="terrain_mountain_rockwalldot3.dds"
+	texturefit3=0
+	texturescale3=4.00000000
+	texturerotation3=0.000000000
+	triplanarmapping3=0
+	layercolor3=1.00000000,1.00000000,1.00000000,1.00000000
+	constraints3=0.000000000,8388610.00,0.000000000,90.0000000
+}
